@@ -1,6 +1,8 @@
 *{
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 nav{
   margin-bottom: 7px;
@@ -34,37 +36,52 @@ nav{
 .content {
   position: absolute;
   top: 40%;
-  color: #db4242;
-  left: 9%;
-  font-size: 4em;
+  color:  #d43308;
+  left: 6%;
+  font-size: 3em;
 }
 .lineimg{
   position: absolute;
-  top: 54%;
+  top: 52%;
   left: 6%;
   font-size: 4em;
 }
 .para {
   position: absolute;
-  top: 59%;
+  top: 57%;
   color: black;
   left: 9%;
   font-size: 30px;
 }
 .abtbut{
     position: absolute;
-    top: 76%;
+    top: 72%;
     font-size: 16px;
     border: none;
     background-color: #7E4555;
-    left: 19%;
+    left: 10%;
     border-radius: 40px;
     padding: 12px 30px 12px 30px;
     transition-duration: 0.4s;
 }
+.invbut{
 
+      position: absolute;
+      top: 72%;
+      font-size: 16px;
+      border: none;
+      background-color: #7E4555;
+      left: 23%;
+      border-radius: 40px;
+      padding: 12px 30px 12px 30px;
+      transition-duration: 0.4s;
+
+}
+.invbut:hover{
+  background-color: #d43308;
+}
 .abtbut:hover {
-  background-color: #d43308;;
+  background-color: #d43308;
 }
 .rightarr{
   position: relative;
