@@ -1,0 +1,399 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  @font-face {
+      font-family: "opereum";
+      src: url("../Static/fonts/Demo_Fonts/Fontspring-DEMO-orpheuspro-regular.otf");
+    }
+    @font-face {
+        font-family: "poppins";
+        src: url("/Static/fonts/Poppins-Black.ttf");
+      }
+  .navbar_css{
+      display: flex;
+        background-color: black;
+    }
+    .image_container{
+      background-color: black;
+    }
+    
+    .logoimg{
+        width: 8em;
+        height: 8em;
+        padding: 0px 0px 0px 1em;
+    
+    }
+    
+    body {
+      animation: fadein 2s;
+    }
+    
+    @keyframes fadein {
+      from { opacity: 0}
+      to   { opacity: 1}
+    }
+    #menu-items.active {
+      display: flex;
+    }
+    .imglinks{
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+    }
+    
+    
+    .links{
+        text-decoration: none;
+        color: white;
+        position: relative;
+    
+    }
+    .links:hover::after{
+        content: "";
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        bottom: 2%;
+    
+    
+    }
+    .links::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        border-radius: 3px;
+        background-color: white;
+        bottom: -5px;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+      }
+    
+    .links:hover::before {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+    .contact-right {
+        display: flex;
+        justify-content: flex-end;
+        gap: 33em;
+        align-items: center;
+    }
+    .links:hover::before {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+    .listitem{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5em;
+        gap: 5em;
+        list-style-type: none;
+        font-family:"Poppins";
+    }
+
+   li{
+        font-weight: 100;
+    }
+  
+   .futureimg{
+    width: 100%;
+    height: 45em;
+    object-fit: fit;
+
+  }
+  .openjobs{
+    font-family: "poppins";
+    margin-top: 4em;
+    margin-left:4em;
+  }
+.job-card {
+    width: 70%;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.job-info {
+    padding: 20px;
+}
+
+.job-info h2 {
+    
+    margin-bottom: 30px;
+    font-family: "poppins";
+}
+
+.job-info hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.job-info p {
+  
+    margin-bottom: 15px;
+    font-family: "poppins";
+}
+
+.job-info ul {
+  font-family: "poppins";
+    margin-top: 5px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.apply-btn {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #3366cc;
+}  
+.hrrule{
+  opacity: 40%;
+  width:90%;
+  margin-top: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  background:black;;
+  text-align:center;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  
+  
+  }
+  .footer img{
+    padding: 0px;
+    width: 10em;
+    height: 10em;
+    
+  }
+  .gmail{
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 20px;
+    color: #e1a87a;
+    text-align: center;
+  }
+  .maildiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gmail:hover{
+    color: white;
+    transition: 0.30s;
+  }
+
+  .footer .row{
+
+  display: inline-flex;
+  width:400px;
+  margin:6% 0%;
+
+  padding:2%  0% ;
+  color:gray;
+  font-size:0.8em;
+  }
+
+  .footer .row a{
+  margin: 0px 20px 10px 20px;
+  text-decoration:none;
+  color:#e1a87a;
+  transition:0.5s;
+  }
+
+  .footer .row a:hover{
+  color:#fff;
+  }
+
+
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  @media only screen and (max-width: 600px) {
+    *{
+      margin: 0px;
+      padding: 0px;
+      
+  
+    }
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+    @font-face {
+        font-family: "opereum";
+        src: url("../Static/fonts/Demo_Fonts/Fontspring-DEMO-orpheuspro-regular.otf");
+      }
+      @font-face {
+          font-family: "poppins";
+          src: url("/Static/fonts/Poppins-Black.ttf");
+        }
+      .navbar_css{
+        background-color: black;
+        display: flex;
+        padding-left:8em ;
+        gap:4em;
+        
+      }
+      
+        img {
+          
+          width: 8em;
+          height: 8em;
+          padding: 0px 0px 0px em;
+        }
+        .menu-icon {
+          margin-top: 1em;
+          display: block;
+          color: white;
+        }
+        
+        #menu-items {
+          
+          background-color: black ;
+          display: none;
+          position: absolute;
+          top: 10px;
+          right: 0;
+          width: 100%;
+        
+          z-index: 998;
+          text-align: center; /* Ensures items are centered */
+        }
+        
+        #menu-items.active {
+          margin-top: 2em;
+          display: block;
+        }
+        
+        #menu-items ul {
+          display: block;
+          padding: 0;
+          margin: 0;
+        }
+        
+        #menu-items li {
+          display: block;
+          margin: 10px 0;
+        }
+      .image_container{
+        background-color: black;
+      }
+      
+      .logoimg{
+          width: 8em;
+          height: 8em;
+          padding: 0px 0px 0px 1em;
+      
+      }
+      .futureimg{
+        object-fit:fill;
+        width: 100%;
+        height: 30em;
+      }
+      .openjobs{
+        font-family: "poppins";
+        margin-top: 4em;
+        margin-left:1em;
+      }
+      .footer {
+        background: black;
+        text-align: center;
+        padding: 20px;
+        display: grid;
+        margin-left: 0em;
+        flex: 0%;
+      }
+      
+      .footer img {
+        padding-top: 10px;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        display: block;
+      }
+      .gmail{
+        margin-left: 1em;
+      }
+      #number_phone{
+        margin-left: 0px;
+      }
+      .footer .row {
+        display: flex;
+        justify-content: center;
+        color: gray;
+        font-size: 10px;
+        margin-left: 0.7em;
+        margin-top: 10px;
+        width: 100%;
+      }
+      
+      .footer .row a {
+        margin: 0 10px;
+        text-decoration: none;
+        
+        color: #e1a87a;
+        transition: 0.5s;
+        
+      }
+      
+      .footer .row a:hover {
+        color: white;
+      }
+
+  }
