@@ -1,0 +1,31 @@
+  [[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+ 
+ [[main]]
+  name = "Resume"
+  weight = 200
+  identifier = "resume"
+  url = "/blogs/"
+
+
+  [[main]]
+  name = "Blogs"
+  weight = 200
+  identifier = "blogs"
+  url = "/blogs/"
+
+  [[main]]
+  name = "Projects"
+  weight = 300
+  identifier = "projects"
+  url = "/projects/"
+
+  [[main]]
+  name = "Contact"
+  weight = 400
+  identifier = "contact"
+  url = "/contact/"
+
