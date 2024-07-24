@@ -3,6 +3,7 @@
   identifier = "home"
   weight = 100
   url = "/"
+  
  
  [[main]]
   name = "Resume"

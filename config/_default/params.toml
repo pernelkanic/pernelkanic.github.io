@@ -3,7 +3,8 @@ title = "I'm Venkat"
 author = "Venkatakrishnan"
 #copyright = "2020-2021"
 
-profilePicture = "images/profile.jpg"
+profilePicture = "profile.jpg"
+
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -59,7 +60,7 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[socialIcons]]
 icon = "fa-brands fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/venkatkrishnan-raghavan-8b3017249/"
 
 [[socialIcons]]
 icon = "fa-brands fa-github"
@@ -67,14 +68,9 @@ title = "GitHub"
 url = "https://github.com/pernelkanic"
 
 [[socialIcons]]
-icon = "fa-brands fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
-
-[[socialIcons]]
 icon = "fa-solid fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:mail@venkatraghav2003@gmail.com"
 
 [mermaid]
 # enable = true
