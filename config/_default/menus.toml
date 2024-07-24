@@ -9,7 +9,7 @@
   name = "Resume"
   weight = 200
   identifier = "resume"
-  url = "/blogs/"
+  url = "https://drive.google.com/file/d/1r4cP3hlAfRNoCy4HYqT1rG_8SrXztR3T/view?usp=sharing"
 
 
   [[main]]
