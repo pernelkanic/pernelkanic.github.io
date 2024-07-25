@@ -46,7 +46,7 @@ Why not run it in the same server where i run my application? We can't trust eve
 ### What did I do:
  - Wrote a seperate service for running the user code , I used redis queue for async purposes.
  - The main backend , once it recieves the user code puts in the queue and from where the worker backend pickups the first request from the queue and starts executing it.
- - The worker backend for every request from the redis queue , checks the language , spins up the respective container and executes the code inside that container and returns the stdout or the stderr to this worker backend , and this again push response to the redis and from the main backend picks it up and shows the response back to the user.
+ - The worker backend for every request from the redis queue , checks the language , spins up the respective container and executes the code inside that container and returns the stdout or the stderr to this worker backend , and this again push response to the redis and from the main backend picks it up and shows the response back to the users.
  - In the client side , long polling (not the best way) has been set up in which server holds the client connection for a certain time period until a new response data arrives.
  - The submission logic is just the extension of the run code implementation , where after the executing the given code , worker backend tests it against the testcase files for a specific 
  problem, and only if all the testcases passes , the code is saved to the database .
