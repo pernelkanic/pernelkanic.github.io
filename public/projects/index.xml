@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Projects on My New Hugo Site</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 17:37:12 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jul 2024 21:34:06 +0530</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding Platform </title>
       <link>http://localhost:1313/projects/first_project/</link>
@@ -16,17 +16,6 @@
       
         <description>Introduction: I would like to explain one of the interesting projects that i have worked on , It is the creating a coding platform like leetcode.
 Being from a Computer Science Background , leetcode is the one thing i been doing for so long , One day i really wanted to learn about the system / design of leetcode and how these coding platform work , how online judges work .</description>
-      
-    </item>
-    
-    <item>
-      <title>First Personal Blog</title>
-      <link>http://localhost:1313/blogs/my-first-post/</link>
-      <pubDate>Tue, 23 Jul 2024 17:37:12 +0530</pubDate>
-      
-      <guid>http://localhost:1313/blogs/my-first-post/</guid>
-      
-        <description>This is the home a b c </description>
       
     </item>
     
