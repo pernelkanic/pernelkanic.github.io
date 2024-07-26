@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 25 Jul 2024 21:34:06 +0530</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coding Platform </title>
-      <link>http://localhost:1313/projects/first_project/</link>
+      <link>http://localhost:1313/projects/my-first-project/</link>
       <pubDate>Thu, 25 Jul 2024 21:34:06 +0530</pubDate>
       
-      <guid>http://localhost:1313/projects/first_project/</guid>
+      <guid>http://localhost:1313/projects/my-first-project/</guid>
       
         <description>Introduction: I would like to explain one of the interesting projects that i have worked on , It is the creating a coding platform like leetcode.
 Being from a Computer Science Background , leetcode is the one thing i been doing for so long , One day i really wanted to learn about the system / design of leetcode and how these coding platform work , how online judges work .</description>
