@@ -11,7 +11,7 @@
   <title>
     
       
-        Contacts |
+        Contact Page |
       Venkatakrishnan
 
   </title>
@@ -33,6 +33,7 @@
       crossorigin="anonymous"
       type="text/css"
     />
+    <link rel="stylesheet" href="./index.css">
   
 
   
@@ -82,10 +83,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="http://localhost:1313/contact/" />
+  <link rel="canonical" href="http://localhost:1313/contact/my-contact-page/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/contact/index.xml" title="My New Hugo Site" />
   
   
   
@@ -116,22 +116,100 @@
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/site-feature-image.png">
-  <meta name="twitter:title" content="Contacts">
+  <meta name="twitter:title" content="Contact Page">
+  <meta name="twitter:description" content="This is the contact page">
 
 
 
   
-  <meta property="og:url" content="http://localhost:1313/contact/">
+  <meta property="og:url" content="http://localhost:1313/contact/my-contact-page/">
   <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="Contacts">
+  <meta property="og:title" content="Contact Page">
+  <meta property="og:description" content="This is the contact page">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="contact">
+    <meta property="article:published_time" content="2024-07-27T09:38:42+05:30">
+    <meta property="article:modified_time" content="2024-07-27T09:38:42+05:30">
     <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
 
 
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "contact",
+        "name": "Contact Page",
+        "headline": "Contact Page",
+        "alternativeHeadline": "",
+        "description": "
+      
+        This is the contact page
+
+
+      
+
+
+    ",
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/contact\/my-contact-page\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Venkatakrishnan"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Venkatakrishnan"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Venkatakrishnan"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Venkatakrishnan"
+        },
+        "copyrightYear" : "2024",
+        "dateCreated": "2024-07-27T09:38:42.00Z",
+        "datePublished": "2024-07-27T09:38:42.00Z",
+        "dateModified": "2024-07-27T09:38:42.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Venkatakrishnan",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http:\/\/localhost:1313\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "http://localhost:1313/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/contact\/my-contact-page\/",
+        "wordCount" : "5",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
 
 </head>
 <body class="body">
@@ -307,8 +385,6 @@
             
             <a
               
-                class="nav__link--active"
-              
               href="/contact/"
               
               title=""
@@ -335,10 +411,91 @@
 </div>
 </header>
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
     "
   >
+    
+    <div class="post__content">
+      <section id="contact">
+  
+        <h1 class="section-header">Contact</h1>
+        
+        <div class="contact-wrapper">
+        
+         --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-codepen" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>       
+              </ul>
+              <hr>
+      
+              
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+        
+        
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
     
   </div>
 
