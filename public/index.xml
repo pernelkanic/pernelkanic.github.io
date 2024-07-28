@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Jul 2024 17:37:12 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My First Project</title>
+      <link>http://localhost:1313/contact/my-first-project/</link>
+      <pubDate>Sat, 27 Jul 2024 09:53:09 +0530</pubDate>
+      
+      <guid>http://localhost:1313/contact/my-first-project/</guid>
+      
+        <description>THis the test contact </description>
+      
+    </item>
+    
+    <item>
+      <title>Contact Page</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Sat, 27 Jul 2024 09:38:42 +0530</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
       <title>Coding Platform </title>
       <link>http://localhost:1313/projects/my-first-project/</link>
       <pubDate>Thu, 25 Jul 2024 21:34:06 +0530</pubDate>
