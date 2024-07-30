@@ -2,6 +2,7 @@
 title = 'Coding Platform '
 date = 2024-07-25T21:34:06+05:30
 draft = false
+comments= true
 +++
 
 ## Introduction:

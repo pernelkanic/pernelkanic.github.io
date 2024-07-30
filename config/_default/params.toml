@@ -25,7 +25,8 @@ singleDateFormat = "2/1/2006"
 indexDateFormat = "2/1/2006"
 listDateFormat = "2/1/2006"
 # Commento Comments
-# CommentoURL = "https://commento.example.com/js/commento.js"
+[params]
+CommentoURL = "https://commento.example.com/js/commento.js"
 # Read More links for truncated summaries
 # readMore = true
 # postSectionName = "blog"

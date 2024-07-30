@@ -1,4 +1,0 @@
-{
-    "origins": ["https://giscus.app"],
-    "originsRegex": ["http://localhost:1313/blogs/*"]
-  }
