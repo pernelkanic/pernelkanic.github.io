@@ -9,12 +9,10 @@
 ><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <title>
-    Venkatakrishnan
-        |
-        Coding Platform 
-      
-
     
+      
+        Coding Platform  |
+      Venkatakrishnan
 
   </title>
 
@@ -412,11 +410,16 @@ Being from a Computer Science Background , leetcode is the one thing i been doin
     </ul>
   </nav>
 </div>
-</header><div class="post">
-  <h1>Coding Platform </h1>
-  <p class="post-date"><time datetime="2024-07-25T21:34:06&#43;0530">July 25, 2024</time> 
-  
-  </p><h2 id="introduction">Introduction:</h2>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      <h1>Coding Platform </h1>
+      <h2 id="introduction">Introduction:</h2>
 <p>I would like to explain one of the interesting projects that i have worked on , It is the creating a coding platform like leetcode.<br>
 Being from a Computer Science Background , leetcode is the one thing i been doing for so long , One day i really wanted to learn about the system /
 design of leetcode and how these coding platform work , how online judges work .</p>
@@ -476,7 +479,59 @@ problem, and only if all the testcases passes , the code is saved to the databas
 <li>Worker backend logic must be migrated from js to golang for efficient concurrency using goroutines.</li>
 </ul>
 </div>
+    <div class="post__footer">
+      
 
+      
+    </div><div id="comment">
+          <h2>comments</h2>
+          <script>
+        const getStoredTheme = () => localStorage.getItem("theme") === "dark" ? "dark" : "light";
+    
+        const setGiscusTheme = () => {
+            const sendMessage = (message) => {
+                const iframe = document.querySelector('iframe.giscus-frame');
+                if (iframe) {
+                    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                }
+            }
+            sendMessage({ setConfig: { theme: getStoredTheme() } })
+        }
+    
+        document.addEventListener("DOMContentLoaded", () => {
+            const giscusAttributes = {
+                "src": "https://giscus.app/client.js",
+                "data-repo": "pernelkanic\/WebSite_comments",
+                "data-repo-id": "R_kgDOMcqXTg",
+                "data-category": "General",
+                "data-category-id": "DIC_kwDOMcqXTs4ChQhx",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": getStoredTheme(),
+                "data-lang": "en",
+                "data-loading": "lazy",
+                "crossorigin": "anonymous",
+                "async": "",
+            };
+    
+            
+            const giscusScript = document.createElement("script");
+            Object.entries(giscusAttributes).forEach(
+                ([key, value]) => giscusScript.setAttribute(key, value));
+            document.getElementById("comment").appendChild(giscusScript);
+    
+            
+            const themeSwitcher = document.querySelector(".themeswitch");
+            if (themeSwitcher) {
+                themeSwitcher.addEventListener("click", setGiscusTheme);
+            }
+        });
+    </script>
+    
+        </div></div>
 
       </main>
     </div><footer class="footer footer__base">

@@ -25,8 +25,8 @@ singleDateFormat = "2/1/2006"
 indexDateFormat = "2/1/2006"
 listDateFormat = "2/1/2006"
 # Commento Comments
-[params]
-CommentoURL = "https://commento.example.com/js/commento.js"
+
+# CommentoURL = "https://commento.example.com/js/commento.js"
 # Read More links for truncated summaries
 # readMore = true
 # postSectionName = "blog"
@@ -76,3 +76,17 @@ url = "mailto:mail@venkatraghav2003@gmail.com"
 [mermaid]
 # enable = true
 
+
+[giscus]
+repo = "pernelkanic/WebSite_comments"
+repoID = "R_kgDOMcqXTg"
+category = "General"
+categoryID = "DIC_kwDOMcqXTs4ChQhx"
+mapping = "pathname"
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "dark"
+lang = "en"
+loading = "lazy"  # This key is not present in the HTML script tag, but can be added with a default value if needed.
