@@ -423,10 +423,55 @@
       
 
       
-    </div>
-
+    </div><div id="comment">
+          <h2>comments</h2>
+          <script>
+        const getStoredTheme = () => localStorage.getItem("theme") === "dark" ? "dark" : "light";
     
-  </div>
+        const setGiscusTheme = () => {
+            const sendMessage = (message) => {
+                const iframe = document.querySelector('iframe.giscus-frame');
+                if (iframe) {
+                    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+                }
+            }
+            sendMessage({ setConfig: { theme: getStoredTheme() } })
+        }
+    
+        document.addEventListener("DOMContentLoaded", () => {
+            const giscusAttributes = {
+                "src": "https://giscus.app/client.js",
+                "data-repo": "pernelkanic\/WebSite_comments",
+                "data-repo-id": "R_kgDOMcqXTg",
+                "data-category": "General",
+                "data-category-id": "DIC_kwDOMcqXTs4ChQhx",
+                "data-mapping": "pathname",
+                "data-strict": "0",
+                "data-reactions-enabled": "1",
+                "data-emit-metadata": "0",
+                "data-input-position": "bottom",
+                "data-theme": getStoredTheme(),
+                "data-lang": "en",
+                "data-loading": "lazy",
+                "crossorigin": "anonymous",
+                "async": "",
+            };
+    
+            
+            const giscusScript = document.createElement("script");
+            Object.entries(giscusAttributes).forEach(
+                ([key, value]) => giscusScript.setAttribute(key, value));
+            document.getElementById("comment").appendChild(giscusScript);
+    
+            
+            const themeSwitcher = document.querySelector(".themeswitch");
+            if (themeSwitcher) {
+                themeSwitcher.addEventListener("click", setGiscusTheme);
+            }
+        });
+    </script>
+    
+        </div></div>
 
       </main>
     </div><footer class="footer footer__base">

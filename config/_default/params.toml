@@ -89,4 +89,4 @@ emitMetadata = "0"
 inputPosition = "bottom"
 theme = "dark"
 lang = "en"
-loading = "lazy"  # This key is not present in the HTML script tag, but can be added with a default value if needed.
+
